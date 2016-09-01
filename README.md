@@ -11,7 +11,7 @@ npm i merge-array-object
 ## Usage
 
 ```js
-var merge = require('@ersinfotech/merge');
+var merge = require('merge-array-object');
 var result = merge({
   a: [1],
   b: 1,
