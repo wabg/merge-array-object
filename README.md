@@ -1,13 +1,14 @@
-# merge
+merge
+===
 
 [![CI](https://github.com/wabg/merge-array-object/actions/workflows/ci.yml/badge.svg)](https://github.com/wabg/merge-array-object/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/merge-array-object.svg)](https://www.npmjs.com/package/merge-array-object)
 [![NPM Downloads](https://img.shields.io/npm/dm/merge-array-object.svg?style=flat&label=)](https://www.npmjs.com/package/merge-array-object)
 [![Coverage Status](https://wabg.github.io/merge-array-object/badges.svg)](https://wabg.github.io/merge-array-object/lcov-report/)
 
-concat array and merge object
+Concat array and merge object
 
-# Install
+## Install
 
 ```bash
 npm i merge-array-object
@@ -33,7 +34,7 @@ var result = merge(a,b);
 }
 ```
 
-**noDuplicates**
+## noDuplicates
 
 ```js
 var a = {ary: ['foo', 'bar']};
