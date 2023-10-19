@@ -38,3 +38,7 @@ console.log(merge.noDuplicates(b, a));  // {ary: ['foo', 'bar', 'baz']}
 console.log(merge(b, a));               // {ary: ['foo', 'bar', 'bar', 'baz']}
 ```
 
+
+## License
+
+Licensed under the MIT License.

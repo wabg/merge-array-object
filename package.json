@@ -4,7 +4,8 @@
   "description": "concat array and merge object",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage --bail"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,15 @@
   },
   "author": "",
   "license": "MIT",
+  "test": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/*.{js}"
+    ]
+  },
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "tsbb": "^4.2.3"
   }
 }

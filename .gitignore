@@ -1,5 +1,25 @@
-.DS_Store
-
-npm-debug.log
-
 node_modules
+coverage
+
+# Log files
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Editor directories and files
+.DS_Store
+.idea
+.lerna_backup
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
