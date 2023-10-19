@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>merge Merge 1.0.5</title>
-    <meta name="description" content="concat array and merge object">
+    <meta name="description" content="Concat array and merge object">
     <link rel="stylesheet" type="text/css" href="css/main.css?v=1.27.2">
     <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.27.2">
     <link rel="stylesheet" type="text/css" href="css/media.css?v=1.27.2">
@@ -40,8 +40,8 @@
           <a href="https://www.npmjs.com/package/merge-array-object"><img src="https://img.shields.io/npm/dm/merge-array-object.svg?style=flat&#x26;label=" alt="NPM Downloads"></a>
           <a href="https://wabg.github.io/merge-array-object/lcov-report/"><img src="https://wabg.github.io/merge-array-object/badges.svg" alt="Coverage Status"></a>
         </p>
-        <p>concat array and merge object</p>
-        <h1 id="install"><a aria-hidden="true" tabindex="-1" href="#install" class="anchor"><span class="icon icon-link"></span></a>Install</h1>
+        <p>Concat array and merge object</p>
+        <h2 id="install"><a aria-hidden="true" tabindex="-1" href="#install" class="anchor"><span class="icon icon-link"></span></a>Install</h2>
         <pre class="language-bash"><code class="language-bash code-highlight"><span class="code-line line-number" line="1"><span class="token function">npm</span> i merge-array-object
 </span></code><input type="hidden" value="npm i merge-array-object
 "><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
@@ -75,7 +75,7 @@ var result = merge(a,b);
   d: 2
 }
 "><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-        <p><strong>noDuplicates</strong></p>
+        <h2 id="noduplicates"><a aria-hidden="true" tabindex="-1" href="#noduplicates" class="anchor"><span class="icon icon-link"></span></a>noDuplicates</h2>
         <pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">ary</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'foo'</span><span class="token punctuation">,</span> <span class="token string">'bar'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span><span class="code-line line-number" line="2"><span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token literal-property property">ary</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'bar'</span><span class="token punctuation">,</span> <span class="token string">'baz'</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span><span class="code-line line-number" line="3">
@@ -96,7 +96,9 @@ console.log(merge(b, a));               // {ary: [&#x27;foo&#x27;, &#x27;bar&#x2
       <nav class="tocs">
         <aside class="inner toc">
           <ol class="tocs-list">
+            <li><a href="#install" class="tocs-link">Install</a></li>
             <li><a href="#usage" class="tocs-link">Usage</a></li>
+            <li><a href="#noduplicates" class="tocs-link">noDuplicates</a></li>
             <li><a href="#contributors" class="tocs-link">Contributors</a></li>
             <li><a href="#license" class="tocs-link">License</a></li>
           </ol>
